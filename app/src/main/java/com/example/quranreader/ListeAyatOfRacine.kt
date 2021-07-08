@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.quranreader.data.Quran
 import com.example.quranreader.data.RoomService
 import com.example.quranreader.recyclerListAyatOfRacine.ListAyatRacineAdapter
-import com.example.quranreader.recyclerListRacine.ListAyaAdapter
 
 class ListeAyatOfRacine : AppCompatActivity(), View.OnClickListener {
 
@@ -23,7 +22,7 @@ class ListeAyatOfRacine : AppCompatActivity(), View.OnClickListener {
 
 
 
-        val recyclerView = findViewById(R.id.ayah_recycler_view) as RecyclerView
+        val recyclerView = findViewById(R.id.racine_recycler_view) as RecyclerView
         recyclerView.layoutManager = LinearLayoutManager(this)
         //val ayas2 = mutableListOf<Ayah>()
 

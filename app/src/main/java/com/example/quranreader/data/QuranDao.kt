@@ -30,4 +30,10 @@ interface QuranDao {
 
     @Update
     fun updatfavAyah(Ayah: Quran)
+
+    @Query("select * from quran_table where isfav==1" )
+    fun getFavAyate():List<Quran>
+
+    @Update
+     fun deleteAyaByIdFav(Ayah: Quran)
 }

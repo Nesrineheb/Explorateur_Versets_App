@@ -19,7 +19,6 @@ import com.example.quranreader.data.Quran
 import com.example.quranreader.data.RetrofitService
 import com.example.quranreader.data.RoomService
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import kotlinx.android.synthetic.main.activity_aya_detail.view.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -43,7 +42,7 @@ class AyaDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_aya_detail)
 
-        var ayahView = findViewById<TextView>(R.id.aya)
+        var ayahView = findViewById<TextView>(R.id.ayah)
         var idAyahView = findViewById<TextView>(R.id.id_ayah)
         var numSouratView = findViewById<TextView>(R.id.num_sourat)
         var numAyahView = findViewById<TextView>(R.id.num_ayah)

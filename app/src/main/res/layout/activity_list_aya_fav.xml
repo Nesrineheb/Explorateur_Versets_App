@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ListeAyatOfRacine">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/racine_recycler_view"
+        android:id="@+id/ayahfav_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/item_ayah" />

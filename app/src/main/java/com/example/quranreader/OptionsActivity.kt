@@ -15,6 +15,7 @@ class OptionsActivity : AppCompatActivity() {
 
         val buttonOne= findViewById<Button>(R.id.button2)
         val buttonTwo= findViewById<Button>(R.id.button3)
+        val buttonThree= findViewById<Button>(R.id.button4)
         buttonOne.setOnClickListener {
             val intent = Intent(this, SwipePages::class.java)
 
@@ -24,6 +25,10 @@ class OptionsActivity : AppCompatActivity() {
             val intent = Intent(this, ListAyaActivity::class.java)
 
             startActivity(intent)
+        }
+        buttonThree.setOnClickListener {
+        val intent2 =Intent(this,ListAyahFavActivity::class.java)
+            startActivity(intent2)
         }
     }
 }
